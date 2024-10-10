@@ -16,4 +16,7 @@ body {
     z-index: 1000; /* Keep it on top of other content */
 }
 
-
+img {
+    width: 125px;
+    height: auto;
+}
