@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth; /* Optional: smooth scrolling for better UX */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    line-height: 1.6; /* Improve line spacing */
+}
+
+.topMenu {
+    /* margin: 0; Remove margin from the panel */
+   /* padding: 0; Optional: remove padding if needed */
+    position: fixed; /* Fix the panel at the top */
+    top: 0; /* Align it to the top of the page */
+    width: 100%; /* Optional: make sure it spans the full width */
+    z-index: 1000; /* Keep it on top of other content */
+}
+
+
