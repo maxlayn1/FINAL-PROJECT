@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif; /* Set a default font */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Set a default font */
     line-height: 1.6; /* Improve line spacing */
+    background-color: whitesmoke;
 }
 
 .topMenu {
@@ -16,7 +17,16 @@ body {
     z-index: 1000; /* Keep it on top of other content */
 }
 
-img {
-    width: 125px;
-    height: auto;
+.rightLink {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: large;
+    margin-right: 40px;
+}
+
+.centerPara {
+    margin-top: 300px;
+    font-size: xx-large;
+    font-family:'Courier New', Courier, monospace;
+    color: green;
 }
