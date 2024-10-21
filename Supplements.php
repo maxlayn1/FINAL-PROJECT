@@ -30,6 +30,14 @@
         </p>
     </div>
 
+    <div class="popSuppBox w3-container w3-center w3-border w3-round-large w3-white">
+        <a class="suppHeader w3-left">Popular Supplements</a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Creatine</span> <span class="suppEl w3-left">Citruline-malate</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Caffeine</span> <span class="suppEl w3-left">Taurine</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Niacin</span> <span class="suppEl w3-left">Beta-alanine</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-lefts">Betaine</span> <span class="suppEl w3-left">Tyrosine</span></a>
+    </div>
+
 </body>
 
 </html>

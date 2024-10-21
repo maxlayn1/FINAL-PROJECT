@@ -55,3 +55,31 @@ body {
     margin-top: -20px;
     margin-bottom: 50px;
 }
+
+.popSuppBox {
+    width: 64%;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.suppHeader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 50px;
+    margin-left: 90px;
+}
+
+.suppEl {
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.spanHold {
+
+}
