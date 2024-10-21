@@ -18,5 +18,10 @@
         <a href="Calculator.php" class="rightLink w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-white" >Calculator</a>
         <a href="Dieting.php" class="rightLink w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-white">Dieting</a> 
     </div>
+
+    <div class="centerPara w3-container w3-center">
+        <p>Started in a random place,<br>we do absolutely nothing.<br>This is a fake website.<br>Why would you click on the about section?</p>
+    </div>
+
 </body>
 </html>

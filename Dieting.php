@@ -18,5 +18,10 @@
         <a href="Calculator.php" class="rightLink w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-white" >Calculator</a>
         <a href="Dieting.php" class="rightLink w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-white">Dieting</a> 
     </div>
+
+    <div class="centerPara w3-container w3-center">
+        <p>INSERT GENERIC DIETING ADVICE HERE:</p>
+    </div>
+
 </body>
 </html>

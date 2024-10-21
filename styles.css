@@ -1,20 +1,27 @@
 html {
-    scroll-behavior: smooth; /* Optional: smooth scrolling for better UX */
+    scroll-behavior: smooth;
+    /* Optional: smooth scrolling for better UX */
 }
 
 body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Set a default font */
-    line-height: 1.6; /* Improve line spacing */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* Set a default font */
+    line-height: 1.6;
+    /* Improve line spacing */
     background-color: whitesmoke;
 }
 
 .topMenu {
     /* margin: 0; Remove margin from the panel */
-   /* padding: 0; Optional: remove padding if needed */
-    position: fixed; /* Fix the panel at the top */
-    top: 0; /* Align it to the top of the page */
-    width: 100%; /* Optional: make sure it spans the full width */
-    z-index: 1000; /* Keep it on top of other content */
+    /* padding: 0; Optional: remove padding if needed */
+    position: fixed;
+    /* Fix the panel at the top */
+    top: 0;
+    /* Align it to the top of the page */
+    width: 100%;
+    /* Optional: make sure it spans the full width */
+    z-index: 1000;
+    /* Keep it on top of other content */
 }
 
 .rightLink {
@@ -27,6 +34,24 @@ body {
 .centerPara {
     margin-top: 300px;
     font-size: xx-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     color: green;
+}
+
+.suppDefBox {
+    margin-top: 135px;
+    margin-right: 20px;
+}
+
+.suppDefBoxTitle {
+    font-size: 50px;
+    margin-left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textInDefBox {
+    font-size: large;
+    margin-left: 150px;
+    margin-top: -20px;
+    margin-bottom: 50px;
 }
