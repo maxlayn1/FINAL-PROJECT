@@ -32,14 +32,14 @@
 
     <div class="popSuppBox w3-container w3-center w3-border w3-round-large w3-white">
         <a class="suppHeader w3-left">Popular Supplements</a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Creatine</span> <span class="suppEl right w3-right">Citruline-malate</span></a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Caffeine</span> <span class="suppEl right w3-right">Taurine</span></a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Niacin</span> <span class="suppEl right w3-right">Beta-alanine</span></a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Betaine</span> <span class="suppEl right w3-right">Tyrosine</span></a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Theanine</span> <span class="suppEl right w3-right">Carnitine</span></a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Arginine</span> <span class="suppEl right w3-right">Nitrate</span></a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Nitric oxide</span> <span class="suppEl right w3-right">Alpha GPC</span></a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Agmatine</span> <span class="suppEl right w3-right">Glucose</span></a>
+        <span class="w3-container"><a href="https://en.wikipedia.org/wiki/Creatine"><span class="suppEl w3-left left wikiLink">Creatine</span></a> <a href="https://en.wikipedia.org/wiki/Citrulline"><span class="suppEl right w3-right wikiLink">Citruline-malate</span></a></span>
+        <span class="w3-container"><a href="https://en.wikipedia.org/wiki/Caffeine"><span class="suppEl w3-left left wikiLink">Caffeine</span></a> <a href="https://en.wikipedia.org/wiki/Taurine"><span class="suppEl right w3-right wikiLink">Taurine</span></a></span>
+        <span class="w3-container"><a href="https://en.wikipedia.org/wiki/Niacin"><span class="suppEl w3-left left wikiLink">Niacin</span></a> <a href="https://en.wikipedia.org/wiki/%CE%92-Alanine"><span class="suppEl right w3-right wikiLink">Beta-alanine</span></a></span>
+        <span class="w3-container"><a href="https://en.wikipedia.org/wiki/Betaine"><span class="suppEl w3-left left wikiLink">Betaine</span></a> <a href="https://en.wikipedia.org/wiki/Tyrosine"><span class="suppEl right w3-right wikiLink">Tyrosine</span></a></span>
+        <span class="w3-container"><a href="https://en.wikipedia.org/wiki/Theanine"><span class="suppEl w3-left left wikiLink">Theanine</span></a> <a href="https://en.wikipedia.org/wiki/Carnitine"><span class="suppEl right w3-right wikiLink">Carnitine</span></a></span>
+        <span class="w3-container"><a href="https://en.wikipedia.org/wiki/Arginine"><span class="suppEl w3-left left wikiLink">Arginine</span></a> <a href="https://en.wikipedia.org/wiki/Nitrate"><span class="suppEl right w3-right wikiLink">Nitrate</span></a></span>
+        <span class="w3-container"><a href="https://en.wikipedia.org/wiki/Biological_functions_of_nitric_oxide"><span class="suppEl w3-left left wikiLink">Nitric oxide</span></a> <a href="https://en.wikipedia.org/wiki/Glycerophosphorylcholine"><span class="suppEl right w3-right wikiLink">Alpha GPC</span></a></span>
+        <span class="w3-container"><a href="https://en.wikipedia.org/wiki/Agmatine"><span class="suppEl w3-left left wikiLink">Agmatine</span></a> <a href="https://en.wikipedia.org/wiki/Glucose"><span class="suppEl right w3-right wikiLink">Glucose</span></a></span>
     </div>
 
 </body>

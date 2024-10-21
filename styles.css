@@ -83,10 +83,23 @@ body {
 }
 
 .right {
-    text-align: right; /* Right-align the text */
-    text-indent: -2em; /* Adjust indent to align first letters */
+    text-align: left; /* Right-align the text */
+    text-indent: -8em; /* Adjust indent to align first letters */
+    padding-right: 8em; /* Adjust padding for better alignment */
+}
+
+.left {
+    text-align: left; /* Right-align the text */
+    text-indent: 2em; /* Adjust indent to align first letters */
     padding-right: 2em; /* Adjust padding for better alignment */
 }
 
-.spanHold {
+.wikiLink {
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+    color: black;
+}
+
+.wikiLink:hover {
+    text-decoration: underline;
 }
