@@ -72,6 +72,8 @@ body {
 }
 
 .suppEl {
+    display: inline-block; /* Use inline-block to allow margin adjustments */
+    width: 200px; /* Set a fixed width for alignment */
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 10%;
@@ -80,6 +82,11 @@ body {
     margin-bottom: 10px;
 }
 
-.spanHold {
+.right {
+    text-align: right; /* Right-align the text */
+    text-indent: -2em; /* Adjust indent to align first letters */
+    padding-right: 2em; /* Adjust padding for better alignment */
+}
 
+.spanHold {
 }

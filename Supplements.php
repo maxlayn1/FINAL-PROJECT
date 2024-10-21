@@ -32,10 +32,14 @@
 
     <div class="popSuppBox w3-container w3-center w3-border w3-round-large w3-white">
         <a class="suppHeader w3-left">Popular Supplements</a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Creatine</span> <span class="suppEl w3-left">Citruline-malate</span></a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Caffeine</span> <span class="suppEl w3-left">Taurine</span></a>
-        <a class="spanHold w3-container"><span class="suppEl w3-left">Niacin</span> <span class="suppEl w3-left">Beta-alanine</span></a>
-        <a class="spanHold w3-container"><span class="suppEl w3-lefts">Betaine</span> <span class="suppEl w3-left">Tyrosine</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Creatine</span> <span class="suppEl right w3-right">Citruline-malate</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Caffeine</span> <span class="suppEl right w3-right">Taurine</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Niacin</span> <span class="suppEl right w3-right">Beta-alanine</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Betaine</span> <span class="suppEl right w3-right">Tyrosine</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Theanine</span> <span class="suppEl right w3-right">Carnitine</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Arginine</span> <span class="suppEl right w3-right">Nitrate</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Nitric oxide</span> <span class="suppEl right w3-right">Alpha GPC</span></a>
+        <a class="spanHold w3-container"><span class="suppEl w3-left">Agmatine</span> <span class="suppEl right w3-right">Glucose</span></a>
     </div>
 
 </body>
