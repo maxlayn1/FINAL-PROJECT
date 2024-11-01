@@ -103,3 +103,71 @@ body {
 .wikiLink:hover {
     text-decoration: underline;
 }
+
+.loginBox {
+    width: 450px;
+    height: 600px;
+    background-color: whitesmoke;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signIn {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.loginCaption {
+    margin-top: -35px;
+    margin-left: 40px;
+}
+
+.loginEntry {
+    margin-left: 40px;
+    width: 80%;
+    padding-left: 10px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signInButton, .registerButton{
+    margin-left: 40px;
+    width: 80%;
+    height: 50px;
+}
+
+.passwordInput {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #aaa; /* Customize this color */
+    /* font-weight: bold; */
+    margin-top: 30px;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    width: 150px;
+    border-bottom: 1px solid #ddd; /* Customize this color */
+    margin: 0 10px; /* Adjust the space around the text */
+}
+
+.registerButton {
+    margin-top: 40px;
+}

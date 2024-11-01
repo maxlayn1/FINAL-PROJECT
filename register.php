@@ -11,15 +11,16 @@
 
 <body>
     <div class="loginBox w3-container w3-round">
-        <p class="signIn w3-xxlarge"><b>Sign in</b></p>
-        <p class="loginCaption">Stay up to date on the latest health research</p>
+        <p class="signIn w3-xxlarge"><b>Register</b></p>
+        <p class="loginCaption">Your first step to a healthier life!</p>
         <form action="script.php" method="post">
+            <input type="test" placeholder="Name" class="nameInput loginEntry w3-round-large w3-border"><br>
             <input type="email" placeholder="Email" class="emailInput loginEntry w3-round-large w3-border"><br>
             <input type="password" placeholder="Password" class="passwordInput loginEntry w3-round-large w3-border"><br>
-            <input type="submit" value="Login" class="signInButton w3-btn w3-green w3-round-xxlarge">
+            <input type="submit" value="Sign up" class="signInButton w3-btn w3-green w3-round-xxlarge">
         </form>
-        <div class="divider">or</div>
-        <a href="register.php"><input type="button" value="Sign up!" class="registerButton w3-btn w3-blue w3-round-xxlarge"></a>
+        <div class="divider">Already have an account?</div>
+        <a href="login.php"><input type="button" value="Sign in" class="registerButton w3-btn w3-blue w3-round-xxlarge"></a>
     </div>
 </body>
 
