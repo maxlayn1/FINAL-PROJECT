@@ -12,6 +12,7 @@
         <a href="index.php">
             <img src="imgs\Pharmacy_Green_Cross.svg.png" alt="website logo linking to index page" 
                 class="logo w3-image w3-bar-item" style="width: 150px; height: auto;">
+            <p class="w3-bar-item websiteName">&lt;/insert website name&gt;</p>
         </a>
         <a href="About.php" class="rightLink w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-white">About</a>
         <a href="Supplements.php" class="rightLink w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-white">Supplements</a>
@@ -20,7 +21,7 @@
     </div>
 
     <div class="centerPara w3-container w3-center">
-        <p>Started in a random place,<br>we do absolutely nothing.<br>This is a fake website.<br>Why would you click on the about section?</p>
+        <p>This is a fake website.<br>Why would you click on the about section?</p>
     </div>
 
 </body>

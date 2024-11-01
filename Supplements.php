@@ -14,6 +14,7 @@
         <a href="index.php">
             <img src="imgs\Pharmacy_Green_Cross.svg.png" alt="website logo linking to index page"
                 class="logo w3-image w3-bar-item" style="width: 150px; height: auto;">
+            <p class="w3-bar-item websiteName">&lt;/insert website name&gt;</p>
         </a>
         <a href="About.php" class="rightLink w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-white">About</a>
         <a href="Supplements.php" class="rightLink w3-bar-item w3-button w3-right w3-hover-text-green w3-hover-white">Supplements</a>

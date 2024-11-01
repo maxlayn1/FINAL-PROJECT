@@ -68,7 +68,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     margin: 50px;
-    margin-left: 90px;
+    margin-left: 128px;
 }
 
 .suppEl {
@@ -122,7 +122,7 @@ body {
 
 .signIn {
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .loginCaption {
@@ -146,7 +146,6 @@ body {
 }
 
 .passwordInput {
-    margin-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -170,4 +169,11 @@ body {
 
 .registerButton {
     margin-top: 40px;
+}
+
+.websiteName {
+    color: green;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 37px;
+    font-size: xx-large;
 }
