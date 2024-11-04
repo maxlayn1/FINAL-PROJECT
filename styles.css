@@ -177,3 +177,17 @@ body {
     margin-top: 37px;
     font-size: xx-large;
 }
+
+.topLeftContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.websiteNameOnLogin {
+    color: green;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: x-large;
+}
