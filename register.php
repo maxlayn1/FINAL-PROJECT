@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>Login page</title>
+    <title>Registration page</title>
 </head>
 
 <body>
@@ -20,9 +23,24 @@
         <p class="signIn w3-xxlarge"><b>Register</b></p>
         <p class="loginCaption">Your first step to a healthier life!</p>
         <form action="register_script.php" method="post">
-            <input type="test" placeholder="Name" class="nameInput loginEntry w3-round-large w3-border"><br>
-            <input type="email" placeholder="Email" class="emailInput loginEntry w3-round-large w3-border"><br>
-            <input type="password" placeholder="Password" class="passwordInput loginEntry w3-round-large w3-border"><br>
+            <input type="text" name="username" placeholder="Username" class="nameInput loginEntry w3-round-large w3-border"><br>
+            <?php
+            if ($_SESSION['nameError']) {
+                echo "<p class='errorMsg' style='color: red'>Invalid username</p>";
+            }
+            ?>
+            <input type="email" name="email" placeholder="Email" class="emailInput loginEntry w3-round-large w3-border"><br>
+            <?php
+            if ($_SESSION['emailError']) {
+                echo "<p class='errorMsg' style='color: red'>Invalid email</p>";
+            }
+            ?>
+            <input type="password" name="password" placeholder="Password" class="passwordInput loginEntry w3-round-large w3-border"><br>
+            <?php
+            if ($_SESSION['passError']) {
+                echo "<p class='errorMsg' style='color: red'>Invalid password</p>";
+            }
+            ?>
             <input type="submit" value="Sign up" class="signInButton w3-btn w3-green w3-round-xxlarge">
         </form>
         <div class="divider">Already have an account?</div>

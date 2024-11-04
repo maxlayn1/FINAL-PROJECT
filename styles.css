@@ -191,3 +191,9 @@ body {
     margin-top: 20px;
     font-size: x-large;
 }
+
+.errorMsg {
+    margin-top: -40px;
+    margin-left: 40px;
+    font-size: small;
+}
