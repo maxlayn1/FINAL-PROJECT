@@ -197,3 +197,8 @@ body {
     margin-left: 40px;
     font-size: small;
 }
+
+.errorEmail {
+    margin-top: -10px;
+    margin-bottom: 0px;
+}

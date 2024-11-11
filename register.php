@@ -26,19 +26,22 @@ session_start();
             <input type="text" name="username" placeholder="Username" class="nameInput loginEntry w3-round-large w3-border"><br>
             <?php
             if ($_SESSION['nameError']) {
-                echo "<p class='errorMsg' style='color: red'>Invalid username</p>";
+                echo "<p class='errorMsg errorUser' style='color: red'>Invalid username</p>";
+                unset($_SESSION['nameError']);
             }
             ?>
             <input type="email" name="email" placeholder="Email" class="emailInput loginEntry w3-round-large w3-border"><br>
             <?php
             if ($_SESSION['emailError']) {
-                echo "<p class='errorMsg' style='color: red'>Invalid email</p>";
+                echo "<p class='errorMsg errorEmail' style='color: red'>Invalid email</p>";
+                unset($_SESSION['emailError']);
             }
             ?>
             <input type="password" name="password" placeholder="Password" class="passwordInput loginEntry w3-round-large w3-border"><br>
             <?php
             if ($_SESSION['passError']) {
-                echo "<p class='errorMsg' style='color: red'>Invalid password</p>";
+                echo "<p class='errorMsg errorPassword' style='color: red'>Invalid password</p>";
+                unset($_SESSION['passError']);
             }
             ?>
             <input type="submit" value="Sign up" class="signInButton w3-btn w3-green w3-round-xxlarge">

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +24,19 @@
         <p class="loginCaption">Stay up to date on the latest health research</p>
         <form action="login_script.php" method="post">
             <input type="email" name="email" placeholder="Email" class="emailInput loginEntry w3-round-large w3-border"><br>
+            <?php
+            if ($_SESSION['emailError']) {
+                echo "<p class='errorMsg' style='color: red'>Invalid email</p>";
+                unset($_SESSION['emailError']);
+            }
+            ?>
             <input type="password" name="password" placeholder="Password" class="passwordInput loginEntry w3-round-large w3-border"><br>
+            <?php
+            if ($_SESSION['passError']) {
+                echo "<p class='errorMsg' style='color: red'>Invalid password</p>";
+                unset($_SESSION['passError']);
+            }
+            ?>
             <input type="submit" value="Login" class="signInButton w3-btn w3-green w3-round-xxlarge">
         </form>
         <div class="divider">or</div>
