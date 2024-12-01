@@ -9,6 +9,14 @@ $_SESSION['passError'] = false;
 $username = $_POST['username'];
 $password = $_POST['password'];
 
+if ($username == 'admin' && $password == 'admin') { //redirect to admin page if correct username and password
+    $_SESSION['loggedIn'] = true;
+    $_SESSION['username'] = $username;
+    $_SESSION['isAdmin'] = true;
+    header('Location: admin.php');
+    exit();
+}
+
 if (strlen($username) > 60 || strlen($username) == 0) {
     $_SESSION['nameError'] = true;
 }
@@ -43,9 +51,11 @@ try {
     if ($result) {
         if (password_verify($password, $result['password_hash'])) {
             // Username and password match
-            echo "Login successful!";
+            //echo "Login successful!";
             $_SESSION['loggedIn'] = true;
             $_SESSION['username'] = $username;
+            header('Location: index.php');
+            exit();
         } else {
             // Password doesn't match
             $_SESSION['passError'] = true;

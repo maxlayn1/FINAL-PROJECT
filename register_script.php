@@ -47,13 +47,13 @@ $sql = "INSERT INTO registration (username, email, password_hash) VALUES (?, ?, 
 $statement = $pdo->prepare($sql);
 try {
     $statement->execute([$username, $email, $hashedPassword]);
-    echo "successful insertion";
+    //echo "successful insertion";
 }
 catch (PDOException $e) {
-    echo "Error inserting data: " . $e->getMessage();
+    //echo "Error inserting data: " . $e->getMessage();
     $_SESSION['nameError'] = true;
     $_SESSION['emailError'] = true;
     header('Location: register.php');
     exit();
 }
-echo "MADE IT THRU EXECUTING STATEMENT";
+//echo "MADE IT THRU EXECUTING STATEMENT";

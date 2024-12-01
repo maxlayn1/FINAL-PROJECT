@@ -207,3 +207,17 @@ body {
     margin-top: -10px;
     margin-bottom: 0px;
 }
+
+.selectAll {
+    margin-top: 150px;
+}
+
+.sqlCommandBox {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.sqlInput {
+    
+    width: 600px;
+}
