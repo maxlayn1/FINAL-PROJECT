@@ -23,11 +23,11 @@ session_start();
         <p class="signIn w3-xxlarge"><b>Login</b></p>
         <p class="loginCaption">Stay up to date on the latest health research</p>
         <form action="login_script.php" method="post">
-            <input type="email" name="email" placeholder="Email" class="emailInput loginEntry w3-round-large w3-border"><br>
+            <input type="text" name="username" placeholder="Username" class="nameInput loginEntry w3-round-large w3-border"><br>
             <?php
-            if ($_SESSION['emailError']) {
-                echo "<p class='errorMsg' style='color: red'>Invalid email</p>";
-                unset($_SESSION['emailError']);
+            if ($_SESSION['nameError']) {
+                echo "<p class='errorMsg errorUser' style='color: red'>Invalid username</p>";
+                unset($_SESSION['nameError']);
             }
             ?>
             <input type="password" name="password" placeholder="Password" class="passwordInput loginEntry w3-round-large w3-border"><br>
