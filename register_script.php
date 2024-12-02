@@ -56,4 +56,11 @@ catch (PDOException $e) {
     header('Location: register.php');
     exit();
 }
+
+$userId = $pdo->lastInsertId();
+    $insertUserDataSql = "INSERT INTO user_data (user_id, login_times) VALUES (?, NOW())";
+    $insertUserDataStmt = $pdo->prepare($insertUserDataSql);
+    $insertUserDataStmt->execute([$userId]);
 //echo "MADE IT THRU EXECUTING STATEMENT";
+    header('Location: login.php');
+    exit();
