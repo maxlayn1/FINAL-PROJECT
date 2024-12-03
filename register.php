@@ -26,14 +26,15 @@ session_start();
             <input type="text" name="username" placeholder="Username" class="nameInput loginEntry w3-round-large w3-border"><br>
             <?php
             if ($_SESSION['nameError']) {
-                echo "<p class='errorMsg errorUser' style='color: red'>Invalid username</p>";
+                
+                echo "<p class='errorMsg errorUser' style='color: red'>{$_SESSION['nameErrorText']}</p>";
                 unset($_SESSION['nameError']);
             }
             ?>
             <input type="email" name="email" placeholder="Email" class="emailInput loginEntry w3-round-large w3-border"><br>
             <?php
             if ($_SESSION['emailError']) {
-                echo "<p class='errorMsg errorEmail' style='color: red'>Invalid email</p>";
+                echo "<p class='errorMsg errorEmail' style='color: red'>{$_SESSION['emailErrorText']}</p>";
                 unset($_SESSION['emailError']);
             }
             ?>
